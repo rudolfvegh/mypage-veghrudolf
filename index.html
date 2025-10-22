@@ -1,20 +1,33 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="main.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Teszt</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Car Info - Home</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+    header { background-color: #222; color: white; padding: 10px 20px; }
+    nav a {
+      color: white; text-decoration: none; margin-right: 20px;
+    }
+    nav a:hover { text-decoration: underline; }
+    main { padding: 20px; }
+  </style>
 </head>
 <body>
-    <h1>Teszt</h1>
-    <p>Autók, autók mindenütt.</p>
-<!-- CaruCore AI Chat snippet -->
-<script>
-  window.ChatConfig = {
-    api_key: '82878be5-d561-48d3-9c3c-8fc967755e61',
-  };
-</script>
-<script src="https://carucore-frontend-dot-carussel-dwt.ew.r.appspot.com/chat-loader.js"></script>
+  <header>
+    <h1>Car Information Portal</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="models.html">Models</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+  <main>
+    <h2>Welcome to the Car Information Portal</h2>
+    <p>This is a simple website for testing purposes. Here you can find general information about cars, their models, and manufacturers.</p>
+    <p>Explore different car types, learn about fuel efficiency, and see example specifications of modern vehicles.</p>
+  </main>
+<script src="chat.js"></script>
 </body>
 </html>
