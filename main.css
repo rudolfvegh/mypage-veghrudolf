@@ -5,19 +5,11 @@
 }
 
 h4 {
-    text-align: center;
+    text-align: left;
 }
 
 p {
-    text-align: center;
-}
-
-iframe {
-    width: 301;
-    height: 57;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    text-align: left;
 }
 
 img {
